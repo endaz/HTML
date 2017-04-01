@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<style>
+.bg-1 { 
+  /* colors from http://www.color-hex.com/color-palette/35443*/
+    font-family: 'Ubuntu', cursive;
+    background-color: #252525;
+    background-image: url("http://revelwallpapers.net/d/346C74336F356A753564504970615631796D434B3264476636376D6264513D3D/background-triangles-black_panel-gray-abstract.jpg");
+    color: #ffc627;
+}
+.bg-2 { 
+    background-color: #fafafa; /* Dark Blue */
+    color: #252525;
+}
+
+h3.12
+ {
+  font-family: 'Ubuntu', cursive !important;
+  text-shadow: 3px, 3px, 3px #aaa !important;
+}
+.footer { 
+    background-color: #252525; /* White */
+    color: #fafafa;
+
+}
+.drugi-pasus {
+    background-color: #fafafa;
+    color: #252525 
+}
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-jv1 {
+  font-weight: bold;
+  color:#0b79a7;
+}
+
+.img-fix {
+  max-height: 70px;
+  max-width: 70px;
+  margin-bottom: 20px;
+}
+
+.lin1{
+
+  background-color: #252525;
+  color: #fafafa;
+  min-height: 2px;
+  max-width: 75%;
+  margin-left: 12.5%;  
+}
+
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 4px;
+    background-color: #ffc627;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+    color: #0b79a7 !important;
+}
+
+
+</style>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid bg-1 text-center">
+<h3>Who Am I?</h3>
+<img src="bird.jpg" class="img-circle" alt="Bird">
+<h3>I'm an web developer!</h3>
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Add me on <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Google+</a></li>
+    <li><a href="#">Linked in</a></li>
+    <li><a href="#">upWork</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Send email!</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3 class="12">What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+
+<div class="lin1">
+</div>
+
+<div class="container-fluid drugi-pasus text-center">
+  <h3>Drugi naslov sa linijom ispod</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+
+<!--<hr class="linija1"> -->
+<div class="lin1">
+</div>
+
+  <div class="container-fluid drugi-pasus text-center">
+  <h3>treci naslov</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+
+<div class="container-fluid footer text-center"> 
+  <h3>Where To Find Me?</h3>
+  <div class="row">
+    <div class="col-sm-4 text-jv1">
+      <p>Contact me via email</p>
+      <img class="img-fix" style="width:100%" src="telefon.png" alt="Image">
+    </div>
+    <div class="col-sm-4 text-jv1">
+      <p>Country?</p>
+      <img class="img-fix" style="width:100%" src="email.ico" alt="Image">
+    </div>
+    <div class="col-sm-4 text-jv1">
+      <p>Am i free?</p>
+      <img class="img-fix" style="width:100%" src="check.ico" alt="Image">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
